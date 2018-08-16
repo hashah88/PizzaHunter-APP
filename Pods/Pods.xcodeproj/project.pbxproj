@@ -1,0 +1,1003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015C902B9C0E63DA0519A0D34E10F739 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADEE4F4711429F0C33F0B279C4800A8 /* CosmosSettings.swift */; };
+		09E9AC0EA3530104B8F4E4B1E2325400 /* ResourceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7887437CA3D4862AB0C63474B7230C1 /* ResourceNavigation.swift */; };
+		0A4730B85274588226652CA6FE1BE079 /* Pods-PizzaHunter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD19CB835CFA41DE2057902E7C97E /* Pods-PizzaHunter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC88D04EAE0CD3EFD3C3C89C1B9F45F /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CF69A5A2A3E1E3FD5FEFA071363D8A /* CosmosLocalizedRating.swift */; };
+		0F582D772B816038AC47C1CD7FDC30E9 /* ResourceStatusOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533C3EC0A5187D5708C65FC55E7F025 /* ResourceStatusOverlay.swift */; };
+		11F18CCAA7B385944EAD86C7BBEE008C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69916A1AD30A7C6C2587502D3A918B /* Configuration.swift */; };
+		17D2C232603F3FE12B114285BD500687 /* Siesta.h in Headers */ = {isa = PBXBuildFile; fileRef = E4513A8F16B4A073D21B9F46CA87B623 /* Siesta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19AD1D91327D597C34C3FC726CAF50C8 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57168D8122C89D434EC2BB59602738A1 /* Networking.swift */; };
+		1C8BF580A9CBDBAB18A4B884D7065E06 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA0088C39E26FB1F42062A0A86C28D /* Resource.swift */; };
+		25DFA72039CBA011EBA738AA73084A8E /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C491C1D8A28FD5BF4EE7B504B40A46F /* CosmosSize.swift */; };
+		2D748455BDC8177FCF596006B1774D22 /* DebugFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A2D93B2528C091CAD96D02D16BC05 /* DebugFormatting.swift */; };
+		3335389DED8C6755E0DDAFF88AB3C869 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A892DA28DA322A73CDE0EEFC9B225 /* RequestError.swift */; };
+		33EDE5E09F384B159F7A8428528C2983 /* RequestCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488C4F304427394702A3ED5A536D35C /* RequestCallbacks.swift */; };
+		36CD5D29D0BDC28F6048B18798DACDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		371F422D050761A63F0156F537B8902D /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF46F99E42DA375F59E133D7230B65 /* CosmosDefaultSettings.swift */; };
+		3DF6ECF23D38E7DA5B5B2B43707F2F4D /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D442187FE3AC147BA4299C0AD4526393 /* Cosmos-dummy.m */; };
+		424AD9605CBDCD867083B9820784E0AC /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3705EF2114AE446B33C4147E15699 /* CosmosText.swift */; };
+		45F546D14166EDEE46371951EC705C03 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27903BB84B1808B56F84CF3FE7FE138D /* CosmosView.swift */; };
+		4753023DB014DCEF4AFBEB98390498EE /* ARC+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4DDC38715D97C19937F3C0344895A5 /* ARC+Siesta.swift */; };
+		4A221D0FF3161BADD0DF5055DCDBE3B5 /* Pods-PizzaHunter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AFBB47515DE748714FA8EAB0B7C3A4 /* Pods-PizzaHunter-dummy.m */; };
+		4F40A9CBB316E7100828F0C6F5714946 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC238FBC79533DAC03E4B47C9B2A52 /* CosmosTouch.swift */; };
+		56EA023359DD0972D8DEAF58EAFA63B3 /* NetworkActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65FCB41BE724C7A20B50BD48909F211 /* NetworkActivityIndicator.swift */; };
+		5A0D3D4DD55BD21F3467DC11889E1FBB /* ResponseTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271F68DEE0E31E79E3A2886BEB44F0D /* ResponseTransformer.swift */; };
+		5A23B2C42F4BC8894AEC6AF367EA7297 /* ResourceStatusOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE2C39A693C3A806DC464986F17B99C /* ResourceStatusOverlay.xib */; };
+		5ABAB2886666C57A14351982B3CB843D /* Regex+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62E4B64954A523B2576F55DC85B1C1 /* Regex+Siesta.swift */; };
+		5F5F5D477F18DC3A253AE48B3DFE43DA /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D32C196BD434F86071787CD9AEF548 /* NetworkRequest.swift */; };
+		5F9069EBA0097ED53DDB78E4D9C2B3FD /* RequestChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055280FD64BB26B0F40318393304F77A /* RequestChaining.swift */; };
+		60CCE001A61A584346977E2C521A0D5D /* URL+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779402B1211D78CE658A27F2B78EC544 /* URL+Siesta.swift */; };
+		72A7F3CF23DB9C16CE429B636FA00C23 /* OpenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D47B6474251C93698C4D47CE52B032 /* OpenEnum.swift */; };
+		74ED07130EA4FD58FEB58E42459DCC5A /* String+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACBAFB4C56ED1CA2D771DFC634F4EB0 /* String+Siesta.swift */; };
+		7767EB932E72C8F3ACF349EC05ED7483 /* Networking-URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94CE056949211C9A0598BDBD815FC0B /* Networking-URLSession.swift */; };
+		7CC5A43D7E1372EB6292FCBC0151A36E /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA34853EA35DF3AD5935EF75750EA /* CosmosAccessibility.swift */; };
+		88BA9FFC474BD7B995A0CEA06FF431F7 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089B6726156447B7C12524BD8DD61335 /* StarFillMode.swift */; };
+		96C4B72873430E147F2C05C845E0844E /* Ω_Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDD52299C6F1E73403A285D6727C78 /* Ω_Deprecations.swift */; };
+		97C0264385BF9F1585C3E72F50CDBF59 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFAD3794D1A945BE38F9CE00BD97EF5 /* Logging.swift */; };
+		99F08F6FE2B165EEBD5E01EDDA176620 /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E0AD30E18B609A8FE286D44524F8E /* CosmosRating.swift */; };
+		9E544409F70B9952C35C1F624D29DBC9 /* PipelineProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B88C0A52A2F8378C3039846BD81E0C /* PipelineProcessing.swift */; };
+		A09C378BEE130A36BE777363BD0B8E44 /* SiestaUI-ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F38F99E8C81B66F38D632BDA0055D /* SiestaUI-ObjC.swift */; };
+		A2812F4D90A4408FD97028FFD31F8B06 /* Siesta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D606D567CEF848137FB66F138CE93EAD /* Siesta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AA971D9492DD9B9E288045C2C0CC9A99 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199D42396C600EC5950C47585B646A3A /* CosmosLayers.swift */; };
+		AC3C853BDC538CCA4EA46416EAA21686 /* Collection+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF133902E2FD28B296D520ADE80825 /* Collection+Siesta.swift */; };
+		AEA789802F27F7DAB61DE6D29D7E1C33 /* PipelineConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642C892032374B8F61D48D593AB26A5E /* PipelineConfiguration.swift */; };
+		B04ADF8DABBE869A8E152E6775F337EE /* StandardTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE32552CC41D13420C3F00D4C85B38 /* StandardTransformers.swift */; };
+		B189061F3EF532B8F46775A23E9DEED6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E8DC197A641668F8AED3BF7D5B06C /* Service.swift */; };
+		B5334619D0380127B59044BC12529CC4 /* ResourceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10073D069139472CF42A75B96F56DA1D /* ResourceObserver.swift */; };
+		C0EECB533E797EDF1FD2C16F6038963D /* Ω_UI_Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BA9A6FD458D55B2E3E2A82430F5C8 /* Ω_UI_Deprecations.swift */; };
+		C4B0EEE6E374ECC86AEA75153FB79461 /* GCD+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708B0FA70347FCA294133CAB6EE1717 /* GCD+Siesta.swift */; };
+		C79D2F2FCE3EF9B31D1222E0C4A59DC5 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8FF033444022A9AB5B89CF2DE8F9B /* RightToLeft.swift */; };
+		C95B658D689425ED9DAA95EB479B44A6 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2833AB00CCCA51D03012747F4BEBD2 /* StarLayer.swift */; };
+		CB0050E0AB5432A9FB8CF65D8BBB4381 /* WeakCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA04FAB3916FF94BBF3D98CFE25F440D /* WeakCache.swift */; };
+		CC2391A670C466F225F8D081AADFBB3B /* Siesta-ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8822F11294CD461316B1E15D4ABDC30 /* Siesta-ObjC.swift */; };
+		CFD517CEC484E9510268504602B2AC30 /* RequestCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991C8BAEAF826D001197F2D7D62A2A8 /* RequestCreation.swift */; };
+		D18E87657A4CADF98D6FD8F748F0882C /* Siesta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4F41106DF176701A9DE8F44E6770E /* Siesta-dummy.m */; };
+		D9FD36B51D346A56F405F116AF46E886 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC18E8D973A6AA1D780387D58073BF /* Progress.swift */; };
+		DC52E6096D7C6B98740ED2E70FD42DD4 /* EntityCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7520335FDC43C8F40EFDB838EBC0A7FA /* EntityCache.swift */; };
+		DDD926DBA6CD00A32071E0A5B0E33F57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE5E91A47C1BF6869DF17747D61C2FF1 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F17D60A14E0FE0EAA9F5FCB46A177C4E /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D8D1AA0D41C73C4B570DE682C05D72 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43968E0A2E316257FF5DA87DE0DD3D9F /* CosmosTouchTarget.swift */; };
+		E37A48068DB0F7BE7103BFFFD8B5CB9C /* ConfigurationPatternConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E273FAA980795C0492A591167567E4 /* ConfigurationPatternConvertible.swift */; };
+		E3BB3368E388D7C4215F1DDD9C72243F /* ProgressTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12988783325F322CE65F459376CCC687 /* ProgressTracker.swift */; };
+		ECB1F5FC5A9F967386215A3D40CE7F7E /* ResourceStatusOverlay.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2C39A693C3A806DC464986F17B99C /* ResourceStatusOverlay.xib */; };
+		F30BEDC11E3A9A6D6E40CADF602C2A29 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F0DDABCF41FBA65DC7143F4DC49F7 /* Request.swift */; };
+		F66DE3EF01408C42C115587B201CB541 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AD3D1E3AAF14E045CE938B03355B54 /* CosmosLayerHelper.swift */; };
+		F6833CC9BFAA7C81DC49576395FBF6D2 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5453AC2704829CE5EA2EBF45989835 /* RemoteImageView.swift */; };
+		F80E978992EDB421FA2F0C09D98C39BD /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF57EB6AED558EEAF0FCA50B2DD9BC /* Entity.swift */; };
+		FC4506B5D5D6E4625DBC576532E33D79 /* SiestaUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8209B491DFE38FC5E2C36B51014082DB /* SiestaUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D350EAD27C3EAA96E16BB191529F2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2AD31BF709FBAEA8A680237FBEE7A7D;
+			remoteInfo = Siesta;
+		};
+		B9A49CB6FC486C14C4D8CC1EB3D200DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDC533A4360A68ABDCE852F04B30927;
+			remoteInfo = Cosmos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		055280FD64BB26B0F40318393304F77A /* RequestChaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestChaining.swift; path = Source/Siesta/Request/RequestChaining.swift; sourceTree = "<group>"; };
+		05A36FDED7FA2CEAF146AF96B521CF6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089B6726156447B7C12524BD8DD61335 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		08A5CE01C64D695D83E69DE2F8489847 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10073D069139472CF42A75B96F56DA1D /* ResourceObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceObserver.swift; path = Source/Siesta/Resource/ResourceObserver.swift; sourceTree = "<group>"; };
+		12988783325F322CE65F459376CCC687 /* ProgressTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressTracker.swift; path = Source/Siesta/Request/ProgressTracker.swift; sourceTree = "<group>"; };
+		13D47B6474251C93698C4D47CE52B032 /* OpenEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenEnum.swift; path = Source/Siesta/Support/OpenEnum.swift; sourceTree = "<group>"; };
+		1488C4F304427394702A3ED5A536D35C /* RequestCallbacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCallbacks.swift; path = Source/Siesta/Request/RequestCallbacks.swift; sourceTree = "<group>"; };
+		18CCA34853EA35DF3AD5935EF75750EA /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		199D42396C600EC5950C47585B646A3A /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		1BFE32552CC41D13420C3F00D4C85B38 /* StandardTransformers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardTransformers.swift; path = Source/Siesta/Pipeline/StandardTransformers.swift; sourceTree = "<group>"; };
+		1C4DDC38715D97C19937F3C0344895A5 /* ARC+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ARC+Siesta.swift"; path = "Source/Siesta/Support/ARC+Siesta.swift"; sourceTree = "<group>"; };
+		275A2D93B2528C091CAD96D02D16BC05 /* DebugFormatting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugFormatting.swift; path = Source/Siesta/Support/DebugFormatting.swift; sourceTree = "<group>"; };
+		27903BB84B1808B56F84CF3FE7FE138D /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		2ADEE4F4711429F0C33F0B279C4800A8 /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		3E2833AB00CCCA51D03012747F4BEBD2 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		43968E0A2E316257FF5DA87DE0DD3D9F /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		4708B0FA70347FCA294133CAB6EE1717 /* GCD+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GCD+Siesta.swift"; path = "Source/Siesta/Support/GCD+Siesta.swift"; sourceTree = "<group>"; };
+		47E8FF033444022A9AB5B89CF2DE8F9B /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		4B4F31BC279ED1A6FAC3B7BB00F947C4 /* Pods_PizzaHunter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaHunter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5271F68DEE0E31E79E3A2886BEB44F0D /* ResponseTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseTransformer.swift; path = Source/Siesta/Pipeline/ResponseTransformer.swift; sourceTree = "<group>"; };
+		57168D8122C89D434EC2BB59602738A1 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Source/Siesta/Networking.swift; sourceTree = "<group>"; };
+		5DC4F41106DF176701A9DE8F44E6770E /* Siesta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Siesta-dummy.m"; sourceTree = "<group>"; };
+		642C892032374B8F61D48D593AB26A5E /* PipelineConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineConfiguration.swift; path = Source/Siesta/Pipeline/PipelineConfiguration.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		693DA0FB2F49A1732EF3988FE3C21239 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B62E4B64954A523B2576F55DC85B1C1 /* Regex+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Regex+Siesta.swift"; path = "Source/Siesta/Support/Regex+Siesta.swift"; sourceTree = "<group>"; };
+		6D2A892DA28DA322A73CDE0EEFC9B225 /* RequestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestError.swift; path = Source/Siesta/RequestError.swift; sourceTree = "<group>"; };
+		71AD3D1E3AAF14E045CE938B03355B54 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		7520335FDC43C8F40EFDB838EBC0A7FA /* EntityCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EntityCache.swift; path = Source/Siesta/EntityCache.swift; sourceTree = "<group>"; };
+		779402B1211D78CE658A27F2B78EC544 /* URL+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Siesta.swift"; path = "Source/Siesta/Support/URL+Siesta.swift"; sourceTree = "<group>"; };
+		78FA0088C39E26FB1F42062A0A86C28D /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Source/Siesta/Resource/Resource.swift; sourceTree = "<group>"; };
+		7B2BA9A6FD458D55B2E3E2A82430F5C8 /* Ω_UI_Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ω_UI_Deprecations.swift"; path = "Source/SiestaUI/Ω_UI_Deprecations.swift"; sourceTree = "<group>"; };
+		7CD49A047950383E20C9A15744FD5405 /* Siesta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Siesta.modulemap; sourceTree = "<group>"; };
+		7EE2C39A693C3A806DC464986F17B99C /* ResourceStatusOverlay.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ResourceStatusOverlay.xib; path = Source/SiestaUI/ResourceStatusOverlay.xib; sourceTree = "<group>"; };
+		7F20A00F28EAD03A3709F80C6EA15F95 /* Siesta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Siesta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8209B491DFE38FC5E2C36B51014082DB /* SiestaUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SiestaUI.h; path = Source/Siesta/Support/SiestaUI.h; sourceTree = "<group>"; };
+		838E0AD30E18B609A8FE286D44524F8E /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		84B88C0A52A2F8378C3039846BD81E0C /* PipelineProcessing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineProcessing.swift; path = Source/Siesta/Pipeline/PipelineProcessing.swift; sourceTree = "<group>"; };
+		8ACBAFB4C56ED1CA2D771DFC634F4EB0 /* String+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Siesta.swift"; path = "Source/Siesta/Support/String+Siesta.swift"; sourceTree = "<group>"; };
+		8D5453AC2704829CE5EA2EBF45989835 /* RemoteImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteImageView.swift; path = Source/SiestaUI/RemoteImageView.swift; sourceTree = "<group>"; };
+		90C80B3A0ECF0F8CCE130CA12C7EBE45 /* Pods-PizzaHunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PizzaHunter.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C491C1D8A28FD5BF4EE7B504B40A46F /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		A1CF69A5A2A3E1E3FD5FEFA071363D8A /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		A5DF46F99E42DA375F59E133D7230B65 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		A8822F11294CD461316B1E15D4ABDC30 /* Siesta-ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Siesta-ObjC.swift"; path = "Source/Siesta/Support/Siesta-ObjC.swift"; sourceTree = "<group>"; };
+		AAFAD3794D1A945BE38F9CE00BD97EF5 /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Source/Siesta/Support/Logging.swift; sourceTree = "<group>"; };
+		ABA3DBF011BEBF3C38C30A9DDC47D83E /* Pods-PizzaHunter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PizzaHunter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B533C3EC0A5187D5708C65FC55E7F025 /* ResourceStatusOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceStatusOverlay.swift; path = Source/SiestaUI/ResourceStatusOverlay.swift; sourceTree = "<group>"; };
+		B5A74451B0CAE30D3613F915BD2E20EA /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		BE4E8DC197A641668F8AED3BF7D5B06C /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Source/Siesta/Service.swift; sourceTree = "<group>"; };
+		BF83CD1F4520F6C7C592A39433F240D0 /* Pods-PizzaHunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PizzaHunter.debug.xcconfig"; sourceTree = "<group>"; };
+		C107F00C64894DA67DDD81D58642C8DA /* Pods-PizzaHunter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PizzaHunter-acknowledgements.plist"; sourceTree = "<group>"; };
+		C25F38F99E8C81B66F38D632BDA0055D /* SiestaUI-ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SiestaUI-ObjC.swift"; path = "Source/SiestaUI/SiestaUI-ObjC.swift"; sourceTree = "<group>"; };
+		C3CB0BDBE57CC181BD253A34F9DF0413 /* Siesta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Siesta.xcconfig; sourceTree = "<group>"; };
+		C6D32C196BD434F86071787CD9AEF548 /* NetworkRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkRequest.swift; path = Source/Siesta/Request/NetworkRequest.swift; sourceTree = "<group>"; };
+		C94A2AF30A81E130F98C17147DFB607D /* Pods-PizzaHunter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PizzaHunter.modulemap"; sourceTree = "<group>"; };
+		C94CE056949211C9A0598BDBD815FC0B /* Networking-URLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking-URLSession.swift"; path = "Source/Siesta/Networking-URLSession.swift"; sourceTree = "<group>"; };
+		CAC3705EF2114AE446B33C4147E15699 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		D0AC238FBC79533DAC03E4B47C9B2A52 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		D1EF133902E2FD28B296D520ADE80825 /* Collection+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Siesta.swift"; path = "Source/Siesta/Support/Collection+Siesta.swift"; sourceTree = "<group>"; };
+		D442187FE3AC147BA4299C0AD4526393 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		D4CC18E8D973A6AA1D780387D58073BF /* Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Progress.swift; path = Source/Siesta/Support/Progress.swift; sourceTree = "<group>"; };
+		D606D567CEF848137FB66F138CE93EAD /* Siesta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siesta-umbrella.h"; sourceTree = "<group>"; };
+		D92B5CA4337BF90494240FE5C425AA6B /* Pods-PizzaHunter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PizzaHunter-frameworks.sh"; sourceTree = "<group>"; };
+		D9AFBB47515DE748714FA8EAB0B7C3A4 /* Pods-PizzaHunter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PizzaHunter-dummy.m"; sourceTree = "<group>"; };
+		DA3D74A406503651609EA4722606309D /* Pods-PizzaHunter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PizzaHunter-resources.sh"; sourceTree = "<group>"; };
+		DAB06F84B3A2A0414DD6619306F1BC25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC69916A1AD30A7C6C2587502D3A918B /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Siesta/Configuration.swift; sourceTree = "<group>"; };
+		E4513A8F16B4A073D21B9F46CA87B623 /* Siesta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Siesta.h; path = Source/Siesta/Support/Siesta.h; sourceTree = "<group>"; };
+		E991C8BAEAF826D001197F2D7D62A2A8 /* RequestCreation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCreation.swift; path = Source/Siesta/Request/RequestCreation.swift; sourceTree = "<group>"; };
+		ECDDD52299C6F1E73403A285D6727C78 /* Ω_Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ω_Deprecations.swift"; path = "Source/Siesta/Support/Ω_Deprecations.swift"; sourceTree = "<group>"; };
+		F0AF57EB6AED558EEAF0FCA50B2DD9BC /* Entity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = Source/Siesta/Entity.swift; sourceTree = "<group>"; };
+		F17D60A14E0FE0EAA9F5FCB46A177C4E /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		F3E273FAA980795C0492A591167567E4 /* ConfigurationPatternConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationPatternConvertible.swift; path = Source/Siesta/ConfigurationPatternConvertible.swift; sourceTree = "<group>"; };
+		F5495C3A845CA9642BC00FF40E0248B7 /* Siesta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siesta-prefix.pch"; sourceTree = "<group>"; };
+		F58C51DAB9320A265942B64E8A22FAE6 /* Cosmos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.xcconfig; sourceTree = "<group>"; };
+		F65FCB41BE724C7A20B50BD48909F211 /* NetworkActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicator.swift; path = Source/SiestaUI/NetworkActivityIndicator.swift; sourceTree = "<group>"; };
+		F7887437CA3D4862AB0C63474B7230C1 /* ResourceNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceNavigation.swift; path = Source/Siesta/Resource/ResourceNavigation.swift; sourceTree = "<group>"; };
+		F7FDD19CB835CFA41DE2057902E7C97E /* Pods-PizzaHunter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PizzaHunter-umbrella.h"; sourceTree = "<group>"; };
+		FA04FAB3916FF94BBF3D98CFE25F440D /* WeakCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakCache.swift; path = Source/Siesta/Support/WeakCache.swift; sourceTree = "<group>"; };
+		FA0F0DDABCF41FBA65DC7143F4DC49F7 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Siesta/Request/Request.swift; sourceTree = "<group>"; };
+		FE410CE5568A4ADB1257D476C3F6D85C /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cosmos.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CB8AC296CC1E2CC5EFB298A9AE6D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD926DBA6CD00A32071E0A5B0E33F57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E1D2C8911A1F4127AF93A478D985B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602D45F8CC914D518D6E1DF7BFCA11B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CD5D29D0BDC28F6048B18798DACDA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085C3668CC8B6EB35F98F6AF61F171A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		26E56A2E8E7E5A2A2769633FC5DD40C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				693DA0FB2F49A1732EF3988FE3C21239 /* Cosmos.framework */,
+				4B4F31BC279ED1A6FAC3B7BB00F947C4 /* Pods_PizzaHunter.framework */,
+				7F20A00F28EAD03A3709F80C6EA15F95 /* Siesta.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B1307B4687BE316D024FEA1876762C /* Pods-PizzaHunter */ = {
+			isa = PBXGroup;
+			children = (
+				08A5CE01C64D695D83E69DE2F8489847 /* Info.plist */,
+				C94A2AF30A81E130F98C17147DFB607D /* Pods-PizzaHunter.modulemap */,
+				ABA3DBF011BEBF3C38C30A9DDC47D83E /* Pods-PizzaHunter-acknowledgements.markdown */,
+				C107F00C64894DA67DDD81D58642C8DA /* Pods-PizzaHunter-acknowledgements.plist */,
+				D9AFBB47515DE748714FA8EAB0B7C3A4 /* Pods-PizzaHunter-dummy.m */,
+				D92B5CA4337BF90494240FE5C425AA6B /* Pods-PizzaHunter-frameworks.sh */,
+				DA3D74A406503651609EA4722606309D /* Pods-PizzaHunter-resources.sh */,
+				F7FDD19CB835CFA41DE2057902E7C97E /* Pods-PizzaHunter-umbrella.h */,
+				BF83CD1F4520F6C7C592A39433F240D0 /* Pods-PizzaHunter.debug.xcconfig */,
+				90C80B3A0ECF0F8CCE130CA12C7EBE45 /* Pods-PizzaHunter.release.xcconfig */,
+			);
+			name = "Pods-PizzaHunter";
+			path = "Target Support Files/Pods-PizzaHunter";
+			sourceTree = "<group>";
+		};
+		5E08A576F2BEB335AE97A491E3B2A1A7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F65FCB41BE724C7A20B50BD48909F211 /* NetworkActivityIndicator.swift */,
+				8D5453AC2704829CE5EA2EBF45989835 /* RemoteImageView.swift */,
+				B533C3EC0A5187D5708C65FC55E7F025 /* ResourceStatusOverlay.swift */,
+				7EE2C39A693C3A806DC464986F17B99C /* ResourceStatusOverlay.xib */,
+				C25F38F99E8C81B66F38D632BDA0055D /* SiestaUI-ObjC.swift */,
+				7B2BA9A6FD458D55B2E3E2A82430F5C8 /* Ω_UI_Deprecations.swift */,
+				085C3668CC8B6EB35F98F6AF61F171A0 /* Resources */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		6888AD176504F3399AED818C8C0C119B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE410CE5568A4ADB1257D476C3F6D85C /* Cosmos.modulemap */,
+				F58C51DAB9320A265942B64E8A22FAE6 /* Cosmos.xcconfig */,
+				D442187FE3AC147BA4299C0AD4526393 /* Cosmos-dummy.m */,
+				B5A74451B0CAE30D3613F915BD2E20EA /* Cosmos-prefix.pch */,
+				F17D60A14E0FE0EAA9F5FCB46A177C4E /* Cosmos-umbrella.h */,
+				DAB06F84B3A2A0414DD6619306F1BC25 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		767615145F4D66BBC1CC2B7DC1B4E170 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA34853EA35DF3AD5935EF75750EA /* CosmosAccessibility.swift */,
+				A5DF46F99E42DA375F59E133D7230B65 /* CosmosDefaultSettings.swift */,
+				71AD3D1E3AAF14E045CE938B03355B54 /* CosmosLayerHelper.swift */,
+				199D42396C600EC5950C47585B646A3A /* CosmosLayers.swift */,
+				A1CF69A5A2A3E1E3FD5FEFA071363D8A /* CosmosLocalizedRating.swift */,
+				838E0AD30E18B609A8FE286D44524F8E /* CosmosRating.swift */,
+				2ADEE4F4711429F0C33F0B279C4800A8 /* CosmosSettings.swift */,
+				9C491C1D8A28FD5BF4EE7B504B40A46F /* CosmosSize.swift */,
+				CAC3705EF2114AE446B33C4147E15699 /* CosmosText.swift */,
+				D0AC238FBC79533DAC03E4B47C9B2A52 /* CosmosTouch.swift */,
+				43968E0A2E316257FF5DA87DE0DD3D9F /* CosmosTouchTarget.swift */,
+				27903BB84B1808B56F84CF3FE7FE138D /* CosmosView.swift */,
+				47E8FF033444022A9AB5B89CF2DE8F9B /* RightToLeft.swift */,
+				089B6726156447B7C12524BD8DD61335 /* StarFillMode.swift */,
+				3E2833AB00CCCA51D03012747F4BEBD2 /* StarLayer.swift */,
+				6888AD176504F3399AED818C8C0C119B /* Support Files */,
+			);
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7ECF1F7E786944AA8FE04C92D86C9445 /* Pods */,
+				26E56A2E8E7E5A2A2769633FC5DD40C2 /* Products */,
+				A6676115447CF95AB28C1CF134D01B64 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ECF1F7E786944AA8FE04C92D86C9445 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				767615145F4D66BBC1CC2B7DC1B4E170 /* Cosmos */,
+				FFF58448F26E220BE5E6794E4CBB7B51 /* Siesta */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6676115447CF95AB28C1CF134D01B64 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44B1307B4687BE316D024FEA1876762C /* Pods-PizzaHunter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA2900B92C85A40ECBBB314E918DE6AA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1C4DDC38715D97C19937F3C0344895A5 /* ARC+Siesta.swift */,
+				D1EF133902E2FD28B296D520ADE80825 /* Collection+Siesta.swift */,
+				DC69916A1AD30A7C6C2587502D3A918B /* Configuration.swift */,
+				F3E273FAA980795C0492A591167567E4 /* ConfigurationPatternConvertible.swift */,
+				275A2D93B2528C091CAD96D02D16BC05 /* DebugFormatting.swift */,
+				F0AF57EB6AED558EEAF0FCA50B2DD9BC /* Entity.swift */,
+				7520335FDC43C8F40EFDB838EBC0A7FA /* EntityCache.swift */,
+				4708B0FA70347FCA294133CAB6EE1717 /* GCD+Siesta.swift */,
+				AAFAD3794D1A945BE38F9CE00BD97EF5 /* Logging.swift */,
+				57168D8122C89D434EC2BB59602738A1 /* Networking.swift */,
+				C94CE056949211C9A0598BDBD815FC0B /* Networking-URLSession.swift */,
+				C6D32C196BD434F86071787CD9AEF548 /* NetworkRequest.swift */,
+				13D47B6474251C93698C4D47CE52B032 /* OpenEnum.swift */,
+				642C892032374B8F61D48D593AB26A5E /* PipelineConfiguration.swift */,
+				84B88C0A52A2F8378C3039846BD81E0C /* PipelineProcessing.swift */,
+				D4CC18E8D973A6AA1D780387D58073BF /* Progress.swift */,
+				12988783325F322CE65F459376CCC687 /* ProgressTracker.swift */,
+				6B62E4B64954A523B2576F55DC85B1C1 /* Regex+Siesta.swift */,
+				FA0F0DDABCF41FBA65DC7143F4DC49F7 /* Request.swift */,
+				1488C4F304427394702A3ED5A536D35C /* RequestCallbacks.swift */,
+				055280FD64BB26B0F40318393304F77A /* RequestChaining.swift */,
+				E991C8BAEAF826D001197F2D7D62A2A8 /* RequestCreation.swift */,
+				6D2A892DA28DA322A73CDE0EEFC9B225 /* RequestError.swift */,
+				78FA0088C39E26FB1F42062A0A86C28D /* Resource.swift */,
+				F7887437CA3D4862AB0C63474B7230C1 /* ResourceNavigation.swift */,
+				10073D069139472CF42A75B96F56DA1D /* ResourceObserver.swift */,
+				5271F68DEE0E31E79E3A2886BEB44F0D /* ResponseTransformer.swift */,
+				BE4E8DC197A641668F8AED3BF7D5B06C /* Service.swift */,
+				E4513A8F16B4A073D21B9F46CA87B623 /* Siesta.h */,
+				A8822F11294CD461316B1E15D4ABDC30 /* Siesta-ObjC.swift */,
+				8209B491DFE38FC5E2C36B51014082DB /* SiestaUI.h */,
+				1BFE32552CC41D13420C3F00D4C85B38 /* StandardTransformers.swift */,
+				8ACBAFB4C56ED1CA2D771DFC634F4EB0 /* String+Siesta.swift */,
+				779402B1211D78CE658A27F2B78EC544 /* URL+Siesta.swift */,
+				FA04FAB3916FF94BBF3D98CFE25F440D /* WeakCache.swift */,
+				ECDDD52299C6F1E73403A285D6727C78 /* Ω_Deprecations.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E23546DA1ACC181249B09E6893E91A20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05A36FDED7FA2CEAF146AF96B521CF6A /* Info.plist */,
+				7CD49A047950383E20C9A15744FD5405 /* Siesta.modulemap */,
+				C3CB0BDBE57CC181BD253A34F9DF0413 /* Siesta.xcconfig */,
+				5DC4F41106DF176701A9DE8F44E6770E /* Siesta-dummy.m */,
+				F5495C3A845CA9642BC00FF40E0248B7 /* Siesta-prefix.pch */,
+				D606D567CEF848137FB66F138CE93EAD /* Siesta-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Siesta";
+			sourceTree = "<group>";
+		};
+		FFF58448F26E220BE5E6794E4CBB7B51 /* Siesta */ = {
+			isa = PBXGroup;
+			children = (
+				CA2900B92C85A40ECBBB314E918DE6AA /* Core */,
+				E23546DA1ACC181249B09E6893E91A20 /* Support Files */,
+				5E08A576F2BEB335AE97A491E3B2A1A7 /* UI */,
+			);
+			path = Siesta;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22D29D4C49C3099F518BC380E40E10A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2812F4D90A4408FD97028FFD31F8B06 /* Siesta-umbrella.h in Headers */,
+				17D2C232603F3FE12B114285BD500687 /* Siesta.h in Headers */,
+				FC4506B5D5D6E4625DBC576532E33D79 /* SiestaUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F72A88918035AFA923560A84B87C61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5E91A47C1BF6869DF17747D61C2FF1 /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B806938CC728642D8C810886F7B3F5C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4730B85274588226652CA6FE1BE079 /* Pods-PizzaHunter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44233140423879B9AF7E10FE18325FEA /* Pods-PizzaHunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264921D54287F59C67C5D2E13D7E5655 /* Build configuration list for PBXNativeTarget "Pods-PizzaHunter" */;
+			buildPhases = (
+				BC2B7129B9A9B25BCC16DB3E7A4ACBE5 /* Sources */,
+				07CB8AC296CC1E2CC5EFB298A9AE6D81 /* Frameworks */,
+				B806938CC728642D8C810886F7B3F5C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC5C1581B88C8A8F9E872540DBA9635 /* PBXTargetDependency */,
+				F26DCFC17D4901BF4BD3D925A035CFB7 /* PBXTargetDependency */,
+			);
+			name = "Pods-PizzaHunter";
+			productName = "Pods-PizzaHunter";
+			productReference = 4B4F31BC279ED1A6FAC3B7BB00F947C4 /* Pods_PizzaHunter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CA41A3E689F135BAEECE91B63D9EA0 /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				64A8AA816E108F31E7CEE1A683E42839 /* Sources */,
+				23E1D2C8911A1F4127AF93A478D985B5 /* Frameworks */,
+				B7F72A88918035AFA923560A84B87C61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = 693DA0FB2F49A1732EF3988FE3C21239 /* Cosmos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2AD31BF709FBAEA8A680237FBEE7A7D /* Siesta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C0FBCC88AE8C1C5CEBB9FEE3B7D958 /* Build configuration list for PBXNativeTarget "Siesta" */;
+			buildPhases = (
+				2F5225BC24E6DF1CF6FC85303561F7CB /* Sources */,
+				602D45F8CC914D518D6E1DF7BFCA11B1 /* Frameworks */,
+				22D29D4C49C3099F518BC380E40E10A2 /* Headers */,
+				07892BBE522CB3876D64562BFB10225A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Siesta;
+			productName = Siesta;
+			productReference = 7F20A00F28EAD03A3709F80C6EA15F95 /* Siesta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 26E56A2E8E7E5A2A2769633FC5DD40C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */,
+				44233140423879B9AF7E10FE18325FEA /* Pods-PizzaHunter */,
+				A2AD31BF709FBAEA8A680237FBEE7A7D /* Siesta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07892BBE522CB3876D64562BFB10225A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A23B2C42F4BC8894AEC6AF367EA7297 /* ResourceStatusOverlay.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F5225BC24E6DF1CF6FC85303561F7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4753023DB014DCEF4AFBEB98390498EE /* ARC+Siesta.swift in Sources */,
+				AC3C853BDC538CCA4EA46416EAA21686 /* Collection+Siesta.swift in Sources */,
+				11F18CCAA7B385944EAD86C7BBEE008C /* Configuration.swift in Sources */,
+				E37A48068DB0F7BE7103BFFFD8B5CB9C /* ConfigurationPatternConvertible.swift in Sources */,
+				2D748455BDC8177FCF596006B1774D22 /* DebugFormatting.swift in Sources */,
+				F80E978992EDB421FA2F0C09D98C39BD /* Entity.swift in Sources */,
+				DC52E6096D7C6B98740ED2E70FD42DD4 /* EntityCache.swift in Sources */,
+				C4B0EEE6E374ECC86AEA75153FB79461 /* GCD+Siesta.swift in Sources */,
+				97C0264385BF9F1585C3E72F50CDBF59 /* Logging.swift in Sources */,
+				56EA023359DD0972D8DEAF58EAFA63B3 /* NetworkActivityIndicator.swift in Sources */,
+				7767EB932E72C8F3ACF349EC05ED7483 /* Networking-URLSession.swift in Sources */,
+				19AD1D91327D597C34C3FC726CAF50C8 /* Networking.swift in Sources */,
+				5F5F5D477F18DC3A253AE48B3DFE43DA /* NetworkRequest.swift in Sources */,
+				72A7F3CF23DB9C16CE429B636FA00C23 /* OpenEnum.swift in Sources */,
+				AEA789802F27F7DAB61DE6D29D7E1C33 /* PipelineConfiguration.swift in Sources */,
+				9E544409F70B9952C35C1F624D29DBC9 /* PipelineProcessing.swift in Sources */,
+				D9FD36B51D346A56F405F116AF46E886 /* Progress.swift in Sources */,
+				E3BB3368E388D7C4215F1DDD9C72243F /* ProgressTracker.swift in Sources */,
+				5ABAB2886666C57A14351982B3CB843D /* Regex+Siesta.swift in Sources */,
+				F6833CC9BFAA7C81DC49576395FBF6D2 /* RemoteImageView.swift in Sources */,
+				F30BEDC11E3A9A6D6E40CADF602C2A29 /* Request.swift in Sources */,
+				33EDE5E09F384B159F7A8428528C2983 /* RequestCallbacks.swift in Sources */,
+				5F9069EBA0097ED53DDB78E4D9C2B3FD /* RequestChaining.swift in Sources */,
+				CFD517CEC484E9510268504602B2AC30 /* RequestCreation.swift in Sources */,
+				3335389DED8C6755E0DDAFF88AB3C869 /* RequestError.swift in Sources */,
+				1C8BF580A9CBDBAB18A4B884D7065E06 /* Resource.swift in Sources */,
+				09E9AC0EA3530104B8F4E4B1E2325400 /* ResourceNavigation.swift in Sources */,
+				B5334619D0380127B59044BC12529CC4 /* ResourceObserver.swift in Sources */,
+				0F582D772B816038AC47C1CD7FDC30E9 /* ResourceStatusOverlay.swift in Sources */,
+				ECB1F5FC5A9F967386215A3D40CE7F7E /* ResourceStatusOverlay.xib in Sources */,
+				5A0D3D4DD55BD21F3467DC11889E1FBB /* ResponseTransformer.swift in Sources */,
+				B189061F3EF532B8F46775A23E9DEED6 /* Service.swift in Sources */,
+				D18E87657A4CADF98D6FD8F748F0882C /* Siesta-dummy.m in Sources */,
+				CC2391A670C466F225F8D081AADFBB3B /* Siesta-ObjC.swift in Sources */,
+				A09C378BEE130A36BE777363BD0B8E44 /* SiestaUI-ObjC.swift in Sources */,
+				B04ADF8DABBE869A8E152E6775F337EE /* StandardTransformers.swift in Sources */,
+				74ED07130EA4FD58FEB58E42459DCC5A /* String+Siesta.swift in Sources */,
+				60CCE001A61A584346977E2C521A0D5D /* URL+Siesta.swift in Sources */,
+				CB0050E0AB5432A9FB8CF65D8BBB4381 /* WeakCache.swift in Sources */,
+				96C4B72873430E147F2C05C845E0844E /* Ω_Deprecations.swift in Sources */,
+				C0EECB533E797EDF1FD2C16F6038963D /* Ω_UI_Deprecations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A8AA816E108F31E7CEE1A683E42839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF6ECF23D38E7DA5B5B2B43707F2F4D /* Cosmos-dummy.m in Sources */,
+				7CC5A43D7E1372EB6292FCBC0151A36E /* CosmosAccessibility.swift in Sources */,
+				371F422D050761A63F0156F537B8902D /* CosmosDefaultSettings.swift in Sources */,
+				F66DE3EF01408C42C115587B201CB541 /* CosmosLayerHelper.swift in Sources */,
+				AA971D9492DD9B9E288045C2C0CC9A99 /* CosmosLayers.swift in Sources */,
+				0EC88D04EAE0CD3EFD3C3C89C1B9F45F /* CosmosLocalizedRating.swift in Sources */,
+				99F08F6FE2B165EEBD5E01EDDA176620 /* CosmosRating.swift in Sources */,
+				015C902B9C0E63DA0519A0D34E10F739 /* CosmosSettings.swift in Sources */,
+				25DFA72039CBA011EBA738AA73084A8E /* CosmosSize.swift in Sources */,
+				424AD9605CBDCD867083B9820784E0AC /* CosmosText.swift in Sources */,
+				4F40A9CBB316E7100828F0C6F5714946 /* CosmosTouch.swift in Sources */,
+				E2D8D1AA0D41C73C4B570DE682C05D72 /* CosmosTouchTarget.swift in Sources */,
+				45F546D14166EDEE46371951EC705C03 /* CosmosView.swift in Sources */,
+				C79D2F2FCE3EF9B31D1222E0C4A59DC5 /* RightToLeft.swift in Sources */,
+				88BA9FFC474BD7B995A0CEA06FF431F7 /* StarFillMode.swift in Sources */,
+				C95B658D689425ED9DAA95EB479B44A6 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2B7129B9A9B25BCC16DB3E7A4ACBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A221D0FF3161BADD0DF5055DCDBE3B5 /* Pods-PizzaHunter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FC5C1581B88C8A8F9E872540DBA9635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */;
+			targetProxy = B9A49CB6FC486C14C4D8CC1EB3D200DE /* PBXContainerItemProxy */;
+		};
+		F26DCFC17D4901BF4BD3D925A035CFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Siesta;
+			target = A2AD31BF709FBAEA8A680237FBEE7A7D /* Siesta */;
+			targetProxy = 7D350EAD27C3EAA96E16BB191529F2DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ED35E6BD524A6684F0390464EB9C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58C51DAB9320A265942B64E8A22FAE6 /* Cosmos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		507B9AF354E8DFB6C5507925325AEFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF83CD1F4520F6C7C592A39433F240D0 /* Pods-PizzaHunter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PizzaHunter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PizzaHunter/Pods-PizzaHunter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PizzaHunter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		991F345AE3A5F91442B155F2F7B4BAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C80B3A0ECF0F8CCE130CA12C7EBE45 /* Pods-PizzaHunter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PizzaHunter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PizzaHunter/Pods-PizzaHunter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PizzaHunter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C958466763AB6DBFD76C198F8EE0ABEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CB0BDBE57CC181BD253A34F9DF0413 /* Siesta.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Siesta/Siesta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Siesta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Siesta/Siesta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Siesta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE2F58C30A84A0A91F2A31FDA6DBDB3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58C51DAB9320A265942B64E8A22FAE6 /* Cosmos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3F7A7D1850067BCB1B29A3C8B3B8773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CB0BDBE57CC181BD253A34F9DF0413 /* Siesta.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Siesta/Siesta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Siesta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Siesta/Siesta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Siesta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264921D54287F59C67C5D2E13D7E5655 /* Build configuration list for PBXNativeTarget "Pods-PizzaHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507B9AF354E8DFB6C5507925325AEFBD /* Debug */,
+				991F345AE3A5F91442B155F2F7B4BAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CA41A3E689F135BAEECE91B63D9EA0 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED35E6BD524A6684F0390464EB9C15D /* Debug */,
+				CE2F58C30A84A0A91F2A31FDA6DBDB3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C0FBCC88AE8C1C5CEBB9FEE3B7D958 /* Build configuration list for PBXNativeTarget "Siesta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F7A7D1850067BCB1B29A3C8B3B8773 /* Debug */,
+				C958466763AB6DBFD76C198F8EE0ABEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

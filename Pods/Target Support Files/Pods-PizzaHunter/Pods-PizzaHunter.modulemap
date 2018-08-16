@@ -1,0 +1,6 @@
+framework module Pods_PizzaHunter {
+  umbrella header "Pods-PizzaHunter-umbrella.h"
+
+  export *
+  module * { export * }
+}
